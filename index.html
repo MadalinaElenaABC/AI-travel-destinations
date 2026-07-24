@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <title>Your Dream Trip</title>
   </head>
+
   <body>
     <header>
       <h1>Your dream trip</h1>
     </header>
+
     <main>
       <form>
         <input
@@ -21,23 +23,32 @@
           required
           autocomplete="off"
         />
+
         <button type="submit">Submit</button>
       </form>
+
+      <div id="result" class="hidden"></div>
     </main>
+
     <footer>
       This project was coded by
-      <a href="https://github.com/MadalinaElenaABC" target="_blank">Madalina</a>
-      , is open-sourced on
+      <a href="https://github.com/MadalinaElenaABC" target="_blank">Madalina</a
+      >, is open-sourced on
       <a
         href="https://github.com/MadalinaElenaABC/AI-travel-destinations"
         target="_blank"
         >GitHub</a
       >
       and hosted on
-      <a href="https://aitraveldestinations.netlify.app//" target="_blank"
+      <a href="https://aitraveldestinations.netlify.app/" target="_blank"
         >Netlify</a
       >
     </footer>
-    <script src="src/index.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
